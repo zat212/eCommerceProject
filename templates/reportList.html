@@ -1,0 +1,42 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <title>Order Reports</title>-->
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.css">-->
+<!--    <link href="/css/bootstrap.min.css" rel="stylesheet">-->
+
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Find Order Reports</h1>-->
+<!--<form th:action="@{/main/manager/reports}" method="get" class="d-flex flex-column align-items-center my-3">-->
+<!--    <div class="mb-3 w-50">-->
+<!--        <label for="date" class="form-label">Select Date:</label>-->
+<!--        <input type="date" id="date" name="date" class="form-control">-->
+<!--    </div>-->
+<!--    <button type="submit" class="btn btn-primary">Find Reports</button>-->
+<!--</form>-->
+
+<!--<table>-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Order ID</th>-->
+<!--        <th>Customer Name</th>-->
+<!--        <th>Total Price</th>-->
+<!--        <th>Order Date</th>-->
+<!--        <th>Status</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr th:each="report : ${reports}">-->
+<!--        <td th:text="${report.orderId}">Order ID</td>-->
+<!--        <td th:text="${report.customerName}">Customer Name</td>-->
+<!--        <td th:text="${report.totalPrice}">Total Price</td>-->
+<!--        <td th:text="${report.orderDate}">Order Date</td>-->
+<!--        <td th:text="${report.status}">Status</td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--</table>-->
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/0.6.5/datepicker.min.js"></script>-->
+<!--</body>-->
+<!--</html>-->
